@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+
+}
+
+body {
+    background-color: black;
+}
+
+.box {
+    background: #E5E5E5;
+    width: 270px;
+    margin: 0 auto 40px;
+    border-radius: 20px;
+    padding: 10px 40px 30px;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 2px;
+    display: flex;
+    box-sizing: border-box;
+
+}
+
+.contatos-logo {
+    width: 100px;
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+
+
+}
+
+label {
+    align-items: center;
+    gap: 1px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.buscar {
+    height: 25px;
+    border: 1px solid #d3d3d3;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    background-color: #f3f0f0f6;
+    font-size: 12px;
+    padding-left: 30px;
+}
+
+.procurar {
+    background-color: #0095f6;
+    height: 25px;
+    border-radius: 10px;
+    border: none;
+    color: #ffff;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
+
+.procurar:hover {
+    opacity: 0.8;
+}
+
+.procurar:active {
+    opacity: 0.6;
+}
+
+.adcionar-novo {
+    height: 25px;
+    border: 1px solid #d3d3d3;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    background-color: #f3f0f0f6;
+    font-size: 12px;
+    padding-left: 30px;
+    
+}
+
+.adcionar-numero{
+    height: 25px;
+    border: 1px solid #d3d3d3;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    background-color: #f3f0f0f6;
+    font-size: 12px;
+    padding-left: 30px;
+}
+
+p{
+    margin-top: 25px;
+    font-family: 'Dangrek', cursiva;
+    color: #0095f6;
+   
+}
+
+.encontrado{
+    color: rgb(20, 124, 7);
+    font-family: 'Dangrek', cursiva;
+}
+
+.salvar {
+    background-color: #0095f6;
+    height: 25px;
+    border-radius: 10px;
+    border: none;
+    color: #ffff;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
+
+.salvar:hover {
+    opacity: 0.8;
+
+}
+
+.salvar:active {
+    opacity: 0.6;
+}
+
+
+.compartilhar {
+    display: flex;
+    gap: 20px;
+    display: inline;
+    margin-top: 20px;
+}
+
+.instagram {
+    width: 22px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.instagram:hover {
+    opacity: 0.8;
+
+}
+
+.instagram:active {
+    opacity: 0.6;
+}
+
+.linkedin {
+    width: 25px;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.linkedin:hover {
+    opacity: 0.8;
+
+}
+
+.linkedin:active {
+    opacity: 0.6;
+}
+
+.watsap {
+    width: 23px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.watsap:hover {
+    opacity: 0.8;
+
+}
+
+.watsap:active {
+    opacity: 0.6;
+}
+
+.copy {
+    display: flex;
+    display: inline-block;
+    font-size: 12px;
+    color: #a89e9e;
+    text-align: center;
+    gap: 5px;
+    margin-top: 20px;
+}
